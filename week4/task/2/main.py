@@ -2,7 +2,7 @@ import os
 import shutil
 from datetime import datetime, timedelta
 
-def list_files(directory="../"):
+def list_files(directory="."):
     return [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 
 def is_recently_modified_or_created(file_path):
