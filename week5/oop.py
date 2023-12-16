@@ -1,5 +1,8 @@
-class Rectangle:
-    def __init__(self,length: float,width: float):
-        self.width = width
-        self.length = length
-    
+class Polygon:
+    # magic method
+    def __init(self,name,size):
+        name = self.name
+        size = self.size
+
+
+polygon = Polygon()
